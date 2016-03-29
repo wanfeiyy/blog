@@ -1,0 +1,64 @@
+body{font-family:Arial, Helvetica, sans-serif;}
+#container{
+    border:5px solid grey;
+    width:1000px;
+    margin:0 auto;
+    padding:10px;
+    float:left;
+}
+.main{
+    width:800px;
+    float:left;
+    padding:5px;
+    border:2px solid blue;
+}
+.list{
+    width:150px;
+    float:left;
+}
+#chatLog , .pane{
+    padding:5px;
+    border:1px solid black;
+}
+#chatLog  p ,.pane p{margin:0;}
+.event{color:#0CA51E;}
+.warning{
+    font-weight:bold;
+    color:#CCC;
+}
+.error{
+    font-weight:bold;
+    color:#red;
+}
+li.disconnected{
+    color:grey;
+}
+li.connected{
+    color:rgb(15, 222, 0);
+}
+.chatPane{
+    max-height:300px;
+    OVERFLOW-Y: auto;
+    OVERFLOW-X:hidden;
+}
+p.title{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: cursive;
+    color: coral;
+
+}
+p.chat{
+    padding-left:30px;
+    font-style: italic;
+    font-size: 20px;
+    background-color: beige;
+}
+p.normal{
+    font-style: normal;
+    font-size: 12px;
+    background-color: beige;
+}
+#console_area{
+    min-height:50px;
+}
